@@ -1,0 +1,6 @@
+{
+  "train_cells": 29133,
+  "val_cells": 3744,
+  "val_accuracy": 1.0,
+  "parameters": 89315
+}
