@@ -1,0 +1,7 @@
+build/
+__pycache__/
+*.pyc
+.venv/
+data/*
+!data/test/
+models/cellnet.pt
