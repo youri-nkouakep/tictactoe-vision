@@ -1,0 +1,23 @@
+{
+  "steps": [
+    "v1: 4 markers, clean training",
+    "v2: + hard samples in training (30%)",
+    "v3: + homography from any 2+ markers, tuned detector"
+  ],
+  "standard_photos": [
+    0.976,
+    0.976,
+    1.0
+  ],
+  "hard_photos": [
+    0.062,
+    0.45,
+    0.989
+  ],
+  "tilt_65deg": [
+    0.73,
+    0.73,
+    1.0
+  ],
+  "metric": "fraction of photos whose 9 cells are all read correctly (undetected boards count as failures)"
+}
