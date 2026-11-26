@@ -1,5 +1,7 @@
 # TicTacToe Vision
 
+> **Context:** a 2025 master's project at Université Ibn Tofail (Master IA et Objets Connectés). I took it up again and adapted it in 2026 before publishing it here.
+
 Play tic-tac-toe **on paper** against an AI that never loses. A camera reads the board, a small CNN recognises each cell, a negamax engine picks the reply, and the move is drawn back onto the image as an AR overlay.
 
 C++17 · OpenCV (ArUco, DNN) · PyTorch → ONNX · CMake · doctest
